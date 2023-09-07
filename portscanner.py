@@ -18,7 +18,7 @@ def scan_port(ipaddress, port):
 		pass
 
 
-targets = input("[*] Enter Targets To Scan(split them by ,): ")
+targets = input("[*] Enter Targets IP To Scan (split them by ,): ")
 ports = int(input("[*] Enter How Many Ports You Want To Scan: "))
 if ',' in targets:
 	print(termcolor.colored(("[*] Scanning Multiple Targets"), 'green'))
